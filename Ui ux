@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav ul, footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li, footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media .social-icon {
+    margin-right: 10px;
+}
+
+/* Section Styles */
+#hero {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#services {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: calc(33.333% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#about {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-overview,
+.mission-values,
+.team-members,
+.approach {
+    width: calc(25% - 20px);
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer nav ul,
+footer .footer-info {
+    text-align: center;
+}
+
+footer .footer-info p {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    text-align: center;
+}
